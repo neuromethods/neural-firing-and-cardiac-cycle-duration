@@ -24,7 +24,7 @@ computes coherence between spike density and CCD time series
 calculation of Fano factor
 11.	Find_sys_dias.m  
 extracts systole and diastole
-12. FR_CCDplus_correlation.m
+12. FR_CCDplus_correlation.m  
 calculation of Pearson correlation between firing rate (spikes/s) and CCD extended over several cycles
 
 Some of the Matlab scripts utilize functions from the freely available [Fieldtrip package](http://www.fieldtriptoolbox.org/download#download_the_fieldtrip_toolbox) (version 20130926)
