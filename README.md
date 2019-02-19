@@ -1,7 +1,7 @@
 # neural-firing-and-cardiac-cycle-duration
 Implementations of the methods applied in: __Kim, Ladenbauer, Babo-Rebelo, Buot, Lehongre, Adam, Hasboun, Lambrecq, Navarro, Ostojic, Tallon-Baudry,__ ___Resting-state neural firing rate is linked to cardiac cycle duration in the human cingulate and parahippocampal cortices___ (under review) <!-- [bioRxiv preprint](https://www.biorxiv.org/content/early/2018/02/07/261016) -->
 
-The code contains Matlab scripts for the analysis of neural spike data (scripts 1,2), detection of R-peaks in ECG data (script 3) and joint analyses of spiking and R-peaks (scripts 4-11), all tested using Matlab 2013a.
+The code contains Matlab scripts for the analysis of neural spike data (scripts 1,2), detection of R-peaks in ECG data (script 3) and joint analyses of spiking and R-peaks (scripts 4-12), all tested using Matlab 2013a.
 1. Adaptive_filtering.m (requires removePLI.m)  
 filtering of raw time series data from each micro-electrode channel (prior to spike sorting) 
 2. Make_spike_density.m  
@@ -24,6 +24,8 @@ computes coherence between spike density and CCD time series
 calculation of Fano factor
 11.	Find_sys_dias.m  
 extracts systole and diastole
+12. FR_CCDplus_correlation.m
+calculation of Pearson correlation between firing rate (spikes/s) and CCD extended over several cycles
 
 Some of the Matlab scripts utilize functions from the freely available [Fieldtrip package](http://www.fieldtriptoolbox.org/download#download_the_fieldtrip_toolbox) (version 20130926)
 
